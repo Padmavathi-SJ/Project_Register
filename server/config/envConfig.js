@@ -10,7 +10,7 @@ module.exports = {
         host: process.env.DB_HOST || 'localhost',
         user: process.env.DB_USER || 'root',
         password: process.env.DB_PASSWORD || '',
-        name: process.env.DB_NAME || 'news_app',
+        name: process.env.DB_NAME || 'pr_app',
         port: process.env.DB_PORT || 3306,
     },
 
@@ -25,7 +25,7 @@ module.exports = {
     redis: {
         host: process.env.REDIS_HOST || 'localhost',
         port: process.env.REDIS_PORT || 6379,
-        password: process.env.REDIS_PASSWORD || 'test123',
+        password: process.env.REDIS_PASSWORD || 'padmacs253',
     },
 
     // Security
